@@ -1,12 +1,12 @@
 # Trade Data
 
-Receives data from [exiobase/tradeflow](https://model.earth/exiobase/tradeflow/)
+Receives data from [exiobase/tradeflow](https://model.earth/exiobase/tradeflow/) and [exiobase/tradeflow/bea](https://model.earth/exiobase/tradeflow/bea/) 
 
-This [EPA download page](https://catalog.data.gov/dataset/useeio-models-with-import-emission-factors-for-greenhouse-gases-for-2017-2022-from-exiobas) is helpful for clarifying the difference between commodities, BEA service categories and sectors.<!-- 3 files from that page were added to concordance folder here, not sure if that's 2 or 3 of the files above. Might be more to use.  -->
+This [EPA download page](https://catalog.data.gov/dataset/useeio-models-with-import-emission-factors-for-greenhouse-gases-for-2017-2022-from-exiobas) is helpful for clarifying the difference between commodities, BEA service categories and sectors. (3 files from that page were added to concordance folder here, not sure if that's 2 or 3 of the files above. Might be more to use.)
 
 It includes these crosswalks:  
-(1) EXIOBASE commodities to USEEIO commodities. 
-(2) BEA service category data to USEEIO sectors. 
+(1) EXIOBASE commodities to USEEIO commodities.  
+(2) BEA service category data to USEEIO sectors.  
 (3) EXIOBASE Country/Region to BEA Service, Census Goods and TiVA trade regions.  
 
 The differences between "CEDA Sector" and the new USEEIO_Detail 2017 sector are small.  
