@@ -1,5 +1,7 @@
 # Trade Data
 
+[Overview](https://model.earth/profile/trade/)
+
 Receives data from [exiobase/tradeflow](https://model.earth/exiobase/tradeflow/) and [exiobase/tradeflow/bea](https://model.earth/exiobase/tradeflow/bea/) 
 
 This [EPA download page](https://catalog.data.gov/dataset/useeio-models-with-import-emission-factors-for-greenhouse-gases-for-2017-2022-from-exiobas) is helpful for clarifying the difference between commodities, BEA service categories and sectors. (3 files from that page were added to concordance folder here, not sure if that's 2 or 3 of the files above. Might be more to use.)
@@ -19,7 +21,7 @@ CEDA is too limited for us to use since it only provides emission data, and does
 
 We don't use industry_id for the USEEIO or BEA values since neither refer to their data as Industry. (Though it is NAICS industry categories with minor modifications.)
 
-Hence, for easy table names with the Exiobase data we use "industry" (5-char) and "commodity" (6-char).
+Hence, for easy table names with the Exiobase data, we use "industry" (5-char) and "commodity" (6-char).
 
 There are too many meanings for "sector" to warrant giving it a table. "beasummary" is more clear.
 
