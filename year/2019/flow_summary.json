@@ -1,0 +1,22 @@
+{
+  "total_flows": 24,
+  "by_context": {
+    "emission/air": 10,
+    "emission/water": 6,
+    "resource/natural": 5,
+    "economic": 3
+  },
+  "by_compartment": {
+    "air": 10,
+    "water": 6,
+    "natural resources": 5,
+    "economic": 3
+  },
+  "by_flow_class": {
+    "environmental": 16,
+    "resource": 5,
+    "economic": 3
+  },
+  "high_relevance_flows": 12,
+  "preferred_flows": 24
+}
