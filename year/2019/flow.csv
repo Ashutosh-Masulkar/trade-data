@@ -1,0 +1,25 @@
+flow_uuid,flowable,context,unit,compartment,flow_class,preferred,external_reference,cas_number,formula,synonyms,trade_relevance
+21l21l21-a764-3063-af2d-bcb8309a97d8,Employment,economic,person*year,economic,economic,True,BEA,,,,20
+22m22m22-a764-3063-af2d-bcb8309a97d9,Value added,economic,USD,economic,economic,True,BEA,,,,20
+b6f010fb-a764-3063-af2d-bcb8309a97b7,Carbon dioxide,emission/air,kg,air,environmental,True,EPA,,,,15
+7b8b7b8b-a764-3063-af2d-bcb8309a97b8,Methane,emission/air,kg,air,environmental,True,EPA,,,,15
+17h17h17-a764-3063-af2d-bcb8309a97d4,Energy use,resource/natural,MJ,natural resources,resource,True,EPA,,,,14
+18i18i18-a764-3063-af2d-bcb8309a97d5,Land use,resource/natural,m2,natural resources,resource,True,EPA,,,,14
+16g16g16-a764-3063-af2d-bcb8309a97d3,Water use,resource/natural,L,natural resources,resource,True,EPA,,,,14
+a1e1a1e1-a764-3063-af2d-bcb8309a97c1,Nitrogen oxides,emission/air,kg,air,environmental,True,EPA,,,,10
+13d13d13-a764-3063-af2d-bcb8309a97d0,Nitrogen total,emission/water,kg,water,environmental,True,EPA,,,,10
+b2f2b2f2-a764-3063-af2d-bcb8309a97c2,Particulate matter,emission/air,kg,air,environmental,True,EPA,,,,10
+9d0d9d0d-a764-3063-af2d-bcb8309a97c0,Sulfur dioxide,emission/air,kg,air,environmental,True,EPA,,,,10
+23n23n23-a764-3063-af2d-bcb8309a97e0,Tax revenue,economic,USD,economic,economic,True,BEA,,,,10
+19j19j19-a764-3063-af2d-bcb8309a97d6,Fossil fuel depletion,resource/natural,MJ surplus,natural resources,resource,True,EPA,,,,9
+20k20k20-a764-3063-af2d-bcb8309a97d7,Mineral depletion,resource/natural,kg Fe equiv,natural resources,resource,True,EPA,,,,9
+e5i5e5i5-a764-3063-af2d-bcb8309a97c5,Ammonia,emission/air,kg,air,environmental,True,EPA,,,,5
+f6j6f6j6-a764-3063-af2d-bcb8309a97c6,Benzene,emission/air,kg,air,environmental,True,EPA,,,,5
+10a10a10-a764-3063-af2d-bcb8309a97c7,Biological oxygen demand,emission/water,kg,water,environmental,True,EPA,,,,5
+c3g3c3g3-a764-3063-af2d-bcb8309a97c3,Carbon monoxide,emission/air,kg,air,environmental,True,EPA,,,,5
+11b11b11-a764-3063-af2d-bcb8309a97c8,Chemical oxygen demand,emission/water,kg,water,environmental,True,EPA,,,,5
+15f15f15-a764-3063-af2d-bcb8309a97d2,Heavy metals,emission/water,kg,water,environmental,True,EPA,,,,5
+8c9c8c9c-a764-3063-af2d-bcb8309a97b9,Nitrous oxide,emission/air,kg,air,environmental,True,EPA,,,,5
+14e14e14-a764-3063-af2d-bcb8309a97d1,Phosphorus total,emission/water,kg,water,environmental,True,EPA,,,,5
+12c12c12-a764-3063-af2d-bcb8309a97c9,Suspended solids,emission/water,kg,water,environmental,True,EPA,,,,5
+d4h4d4h4-a764-3063-af2d-bcb8309a97c4,Volatile organic compounds,emission/air,kg,air,environmental,True,EPA,,,,5
