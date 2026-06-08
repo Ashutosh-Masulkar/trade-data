@@ -4,6 +4,44 @@
 
 Receives data from [exiobase/tradeflow](https://model.earth/exiobase/tradeflow/) and [exiobase/tradeflow/bea](https://model.earth/exiobase/tradeflow/bea/) 
 
+## Run locally
+
+This repository is a static data and dashboard site. It does not require a
+Node, Python, or package-install step to view the dashboards locally.
+
+For the shared ModelEarth navigation and styles, clone `localsite` next to this
+repository, then run a local web server from their shared parent folder:
+
+```bash
+mkdir ModelEarth-work
+cd ModelEarth-work
+git clone https://github.com/ModelEarth/trade-data.git
+git clone https://github.com/ModelEarth/localsite.git
+python3 -m http.server 8000
+```
+
+Open these pages in your browser:
+
+- <http://localhost:8000/trade-data/>
+- <http://localhost:8000/trade-data/bea-dashboard/sankey.html>
+- <http://localhost:8000/trade-data/state-dashboard/>
+- <http://localhost:8000/trade-data/state-trade-map/>
+
+Keep an internet connection available while viewing the dashboards. Some pages
+load browser libraries from public CDNs and can fall back to GitHub-hosted data.
+
+## Contributing
+
+Create changes on a branch in your fork, then open a pull request back to
+`ModelEarth/trade-data`.
+
+```bash
+git checkout -b your-name/short-change-description
+```
+
+Keep pull requests focused. For dashboard changes, verify the relevant local
+page above before opening the pull request.
+
 This [EPA download page](https://catalog.data.gov/dataset/useeio-models-with-import-emission-factors-for-greenhouse-gases-for-2017-2022-from-exiobas) is helpful for clarifying the difference between commodities, BEA service categories and sectors. (3 crosswalk files from that page were added to the concordance folder here.)
 
 The EPA page provides these crosswalks:  
